@@ -1,0 +1,100 @@
+/* Estilo general del cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2f4f30;
+    color: beige;
+}
+
+/* Estilo del título */
+.titulo {
+    text-align: center;
+    background-color: rgb(118, 44, 12);
+    color: beige;
+    padding: 10px;
+    font-size: 25px;
+    background-image: url(/img/madera.jpeg);
+}
+
+/* Estilo para el elemento HTML y el contenedor principal */
+html,
+main {
+    background-color: #2f4f30;
+    margin: 0;
+    padding: 40px;
+    color: white;
+    background-image: url(/img/madera.jpeg);
+}
+
+/* Estilo para las cartas */
+.carta {
+    position: relative;
+    width: 60px;
+    left: 46px;
+    margin-left: -45px;
+    margin-top: 10px;
+}
+
+/* Estilo para los contenedores de jugadores */
+#jugador,
+#pc {
+    height: 220px;
+}
+
+/* Estilo para el texto del final */
+#Final p {
+    font-size: 1.5em;
+    text-align: center;
+    color: burlywood;
+}
+
+/* Estilo para el contenedor de la computadora */
+.pc {
+    text-align: center;
+    margin-top: 2%;
+}
+
+/* Estilo de la mesa */
+.mesa {
+    background-image: url(/img/textu.jpg);
+    border-radius: 15%;
+    margin-top: -5px;
+    margin-bottom: -10px;
+    margin-left: -20px;
+    margin-right: -10px;
+}
+
+/* Estilo para el primer jugador */
+.j1 {
+    margin-left: 2%;
+}
+
+/* Contenedor flexible para los jugadores */
+.contenedor-jugadores {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Estilo del cuadrado para la computadora */
+.cuadrado-pc {
+    width: 800px;
+    height: 200px;
+    background: rgba(255, 0, 0, 0);
+    border: 3px solid #ffffff;
+    margin-left: 22%;
+    border-radius: 25%;
+    background-image: url(/img/madera.jpeg);
+    margin-bottom: 10%;
+}
+
+/* Estilo del cuadrado para el jugador */
+.cuadrado-jugador {
+    width: 90px;
+    height: 120px;
+    background: rgba(255, 0, 0, 0);
+    border: 3px solid #ffffff;
+    border-radius: 10%;
+    background-image: url(/img/madera.jpeg);
+}
